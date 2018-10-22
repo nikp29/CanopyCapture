@@ -256,6 +256,10 @@ header.masthead p {
   margin-top: 2rem;
 }
 
+.advert1 {
+  padding-bottom: 2rem;
+}
+
 .portfolio-box {
   position: relative;
   display: block;
