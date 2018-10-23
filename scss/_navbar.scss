@@ -30,6 +30,13 @@
         &:hover {
           color: $primary;
         }
+        &.active {
+          color: $primary !important;
+          background-color: transparent;
+          &:hover {
+            background-color: transparent;
+          }
+        }
       }
     }
   }

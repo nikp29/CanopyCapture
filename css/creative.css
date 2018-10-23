@@ -130,6 +130,17 @@ img::-moz-selection {
   color: #4d9867;
 }
 
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+  color: #4d9867 !important;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+  background-color: transparent;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
