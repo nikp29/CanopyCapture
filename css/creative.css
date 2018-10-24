@@ -114,7 +114,10 @@ img::-moz-selection {
 }
 
 #mainNav img {
-  padding: 1rem;
+  padding: 0rem 0rem;
+  margin: 0rem 1rem;
+  height: 56px;
+  width: 56px;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
