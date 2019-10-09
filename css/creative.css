@@ -9589,15 +9589,11 @@ hr.light {
 }
 
 #pp {
-  margin-right: 2em;
+  margin: 2em;
 }
 
 #ff {
-  margin-left: 2em;
-}
-
-#resources {
-  min-height: 75vh !important;
+  margin: 2em;
 }
 
 #mainNav {
@@ -9674,6 +9670,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  height: 100vh;
 }
 
 header.masthead h1 {
@@ -9687,6 +9684,7 @@ header.masthead #myVideo {
   bottom: 0;
   min-height: 100%;
   z-index: -2;
+  overflow-x: hidden;
 }
 
 @media (min-width: 992px) {

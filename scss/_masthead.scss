@@ -9,6 +9,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  height: 100vh;
   h1 {
     font-size: 2.25rem;
   }
@@ -19,6 +20,7 @@ header.masthead {
     bottom: 0;
     min-height: 100%;
     z-index: -2;
+    overflow-x: hidden;
   }
   @include media-breakpoint-up(lg) {
     height: 100vh;
